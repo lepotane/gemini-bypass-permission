@@ -1,0 +1,19 @@
+# Varsayilan: metin dosyalarini depoda LF olarak sakla
+* text=auto eol=lf
+
+# Python betikleri: LF her zaman (shebang satiri LF olmali)
+*.py text eol=lf
+
+# PowerShell: Windows'ta CRLL daha uyumlu
+*.ps1 text eol=crlf
+
+# Shell betikleri: LF (Linux/macOS)
+*.sh text eol=lf
+
+# Binary dosyalar
+*.png binary
+*.ico binary
+*.jpg binary
+*.vsix binary
+*.zip binary
+*.exe binary

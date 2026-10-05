@@ -1,0 +1,7 @@
+[
+  {"find": "QColor(255, 0, 0)", "replace": "QColor(0, 255, 0)"},
+  {"find": "setToolTip(\"hello\")", "replace": "setToolTip(QStringLiteral(\"hello\"))", "all": true},
+  {"find": "\\\"q\\\"", "replace": "q"},
+  {"find": "[ \\t]*//[ \\t]*TODO:.*", "replace": "", "regex": true, "all": true},
+  {"find": "int v = 0;", "replace": "int v = 42;"}
+]
